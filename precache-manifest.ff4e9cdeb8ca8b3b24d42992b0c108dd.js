@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4d094069a7725617ffdf2aeeea211674",
+    "revision": "a6109a04ae119f52e9d4675f2180066b",
     "url": "/leniolabscodechallenge/index.html"
   },
   {
-    "revision": "56c239de01d697bff0df",
+    "revision": "fe42a6c484230a44cf60",
     "url": "/leniolabscodechallenge/static/css/main.1787c169.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/leniolabscodechallenge/static/js/2.b6139b73.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "56c239de01d697bff0df",
-    "url": "/leniolabscodechallenge/static/js/main.00c751b4.chunk.js"
+    "revision": "fe42a6c484230a44cf60",
+    "url": "/leniolabscodechallenge/static/js/main.6f061efd.chunk.js"
   },
   {
     "revision": "144b578dd2e5edc57380",
