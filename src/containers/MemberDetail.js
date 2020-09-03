@@ -28,7 +28,7 @@ const MemberDetail = ({ match }) => {
   }, []);
   return (
     <div className="detailContainer">
-      <Link to={`/`}>
+      <Link to={`/leniolabscodechallenge`}>
         <button > Go Back</button>
       </Link>
       {loading ? <h3>Fetching Member Data...</h3> : <MemberDetailItem data={member} />}

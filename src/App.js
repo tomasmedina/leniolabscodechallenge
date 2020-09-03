@@ -16,7 +16,7 @@ function App() {
       </header>
       <Router>
         <Switch>
-          <Route path="/" exact component={Congress} />
+          <Route path="/leniolabscodechallenge" exact component={Congress} />
           <Route path="/member/:memberId" exact component={MemberDetail} />
           <Route component={NotFound} />
         </Switch>

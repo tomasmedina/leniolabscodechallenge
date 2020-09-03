@@ -2,7 +2,6 @@ import React from "react";
 import twitterLogo from "../utils/logos/twitter.svg";
 import facebookLogo from "../utils/logos/facebook.svg";
 import youtubeLogo from "../utils/logos/youtube.svg";
-import { handleGenderAndParty } from "../utils/shared";
 
 const MemberDetailItem = ({ data }) => {
   console.log("data", data);
