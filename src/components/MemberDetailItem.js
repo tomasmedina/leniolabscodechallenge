@@ -4,8 +4,6 @@ import facebookLogo from "../utils/logos/facebook.svg";
 import youtubeLogo from "../utils/logos/youtube.svg";
 
 const MemberDetailItem = ({ data }) => {
-  console.log("data", data);
-
   const {
     first_name,
     last_name,
