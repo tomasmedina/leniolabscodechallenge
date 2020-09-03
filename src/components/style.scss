@@ -1,0 +1,94 @@
+$color-light-grey: #f9f9f9;
+$color-white: #f0f0f0;
+$color-black: #000000;
+$color-light-blue: #24a0ed;
+
+.houseButtons {
+  justify-content: space-around;
+}
+
+.listContainer {
+  margin: auto;
+  ul {
+    padding: 0;
+  }
+}
+
+.listItem {
+  border: 1px solid $color-black;
+  margin: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  span {
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .detailButton {
+    margin: 5px;
+    font-size: 1.1em;
+    text-align: left;
+    color: $color-white;
+    border: none;
+    padding: 10px 15px;
+    background-color: $color-light-blue;
+  }
+}
+
+.houseButtons {
+  justify-content: space-between;
+
+  button {
+    font-size: 20px;
+    text-align: left;
+    color: $color-white;
+    border: none;
+    padding: 10px 15px;
+    background-color: $color-light-blue;
+    margin: 5px;
+  }
+}
+
+.memberDetailBox {
+  border: 1px solid $color-black;
+  width: 400px;
+  margin: auto;
+  .memberInfo {
+    margin: 5px;
+    label {
+      font-size: 1.1em;
+      font-weight: bold;
+    }
+    span {
+      font-size: 1.1em;
+    }
+    p {
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+  }
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+}
+
+.advancedFilterContainer {
+  display: flex;
+  justify-content: center;
+  div {
+    margin: 5px;
+    label {
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+    input {
+      width: 100%;
+      font-size: 1em;
+    }
+  }
+}

@@ -1,0 +1,71 @@
+$color-light-blue: #24a0ed;
+$color-white: #f0f0f0;
+$color-primary-blue: #428bca;
+
+body {
+  font-size: 16px;
+}
+
+.detailContainer {
+  button {
+    margin: 5px;
+    font-size: 1.2em;
+    text-align: left;
+    color: $color-white;
+    border: none;
+    padding: 10px 15px;
+    background-color: $color-light-blue;
+  }
+}
+
+.filtersButton {
+  margin: auto;
+  margin-top: 5px;
+  font-size: 1.1px;
+  text-align: left;
+  color: $color-white;
+  border: none;
+  padding: 10px 15px;
+  background-color: $color-light-blue;
+}
+
+.pageButton {
+  margin: 5px;
+  margin-top: 5px;
+  font-size: 20px;
+  text-align: left;
+  color: $color-white;
+  border: none;
+  padding: 10px 15px;
+  background-color: $color-primary-blue;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+
+  input {
+    padding: 10px 20px;
+    margin: auto;
+    box-sizing: border-box;
+    margin: auto;
+  }
+
+  .filterInput {
+    width: 30%;
+    font-size: 20px;
+  }
+
+  .toggleFilterButton {
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    text-align: left;
+    color: $color-white;
+    border: none;
+    padding: 10px 15px;
+    background-color: $color-light-blue;
+  }
+}
